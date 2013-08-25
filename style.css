@@ -1,0 +1,27 @@
+body {
+    background-color:darkslateblue ;
+    /*background-image: url('backTr.png');*/
+}
+
+.absolute-Center.is-Fixed {
+    width: 900px;
+    height: 80%;
+    overflow: auto;
+    margin: auto;
+    position: fixed;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: 999;
+    background: cornflowerblue;
+    padding-left: 15px;
+}
+
+.leftBackgroundImage {    
+    margin-top: 100px;
+    position: fixed;
+}
+
+.rightBackgroundImage{
+    margin-top: 100px;
+    right: 0px;
+    position: fixed;
+}
